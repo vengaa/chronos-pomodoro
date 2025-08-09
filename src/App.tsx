@@ -1,10 +1,11 @@
 import './styles/theme.css';
 import './styles/global.css';
+import { Heading } from './components/Heading';
 
 export function App() {
   return (
     <>
-      <h1>Projeto limpo</h1>
+      <Heading>Teste heading props</Heading>
     </>
   );
 }
