@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
+  padding-top: 3.2rem;
 }
 
 .logoLink {
@@ -16,9 +17,14 @@
   font-weight: bold;
   text-decoration: none;
   color: var(--primary);
+  transition: all 0.2s ease-in-out;
 }
 
 .logoLink svg {
   width: 6.4rem;
   height: 6.4rem;
+}
+
+.logoLink:hover {
+  filter: brightness(50%);
 }
